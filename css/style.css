@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+.menu{
+    background-color: rgb(6, 6, 163);
+    display: none;
+    position: relative;
+}
+.burger div{
+    background-color: white;
+    height: 0.7vh;
+    width: 4.7vw;
+    margin: 12%;
+    border-radius: 20%;
+}
+.webPage{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 63.1%;
+    background-color: rgb(6, 6, 163);
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.navbar img {
+    width: 44%;
+    height: 26%;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+.navbar h1{
+    margin-top: 4%;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: default;
+}
+.navbar h2{
+    margin-top: 2%;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: default;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    margin-top: 6%;
+    background-color: rgb(33 33 203);
+    text-align: center;
+    width: 30vw;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.navbar ul li:hover{
+    border: 3px solid white;
+    transition: all 0.3s ease 0s;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    padding: 3% 35%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: white;
+    overflow-y: auto;
+}
+#home h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20%;
+    cursor: default;
+}
+#home h1 span{
+    color: rgb(6, 6, 163);
+}
+#home p{
+    padding-top: 2%;
+    padding-left: 20%;
+    width: 60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: default;
+}
+.large{
+    font-size: 1.9em;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 6%;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    margin-top: 3%;
+    margin-left: 20%;
+    background-color: rgb(6, 6, 163);
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn:hover{
+    background-color: rgb(33 33 203);
+}
+#download{
+    height: 80%;
+}
+#download img{
+    height: inherit;
+    width: inherit;
+    padding-left: 10%;
+    margin-left: 20%;
+}
+.others{
+    align-items: center;
+    cursor: default;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading{
+    position: relative;
+    bottom: 20%;
+}
+.inst-name{
+    margin-top: 3%;
+    text-align: center;
+}
+.inst-name span{
+    color: rgb(6, 6, 163);
+}
+i{
+    color: rgb(6, 6, 163);
+}
+.medium{
+    font-size: 1.2em;
+}
+.small{
+    font-size: 0.7em;
+}
+.prohead{
+    position: relative;
+    bottom: 10%;
+}
+#projects ol{
+    width: 48vw;
+}
+#projects ol b{
+    font-weight: bolder;
+}
